@@ -347,8 +347,9 @@ def game(consonant, vowel, dependent_vowel, verbs):
     selected_categories = [categories[i]for i in categories_selection if i in categories]
     print('Selected categories:')
     for category_info in selected_categories:
-        category_name, _, _ = category_info
-        print('-',category_name)
+        # category_name, _, _ = category_info
+        # print('-',category_name)
+        print('-', category_info[0])
     while True:
         random_category = random.choice(selected_categories)
         print('The question is in the category:', random_category[0])
