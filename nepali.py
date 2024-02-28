@@ -5,115 +5,115 @@ verbs = {
     '2': ['To cry', 'रुनु', 'runu'],
     '3': ['To eat', 'खानु', 'khānu'],
     '4': ['To go', 'जानु', 'jānu'],
-    '5': ['To touch', 'छुनु', 'chunu'],
-    '6': ['To come', 'आउनु', 'āunu'],
-    '7': ['To cook', 'पकाउनु', 'pakāunu'],
-    '8': ['To accept', 'स्वीकार गर्नुहोस्', 'Svīkāra garnuhōs'],
-    '9': ['To add', 'थप्नुहोस्', 'thapnuhōs'],
-    '10': ['To allow', 'अनुमति दिनुहोस्', 'anumati dinuhōs'],
-    '11': ['To answer', 'जवाफ', 'javāpha'],
-    '12': ['To arrive', 'आइपुग्छ', 'ā’ipugcha'],
-    '13': ['To ask', 'सोध्नु', 'sōdhnu'],
-    '14': ['To become', 'बन्नु', 'bannu'],
-    '15': ['To believe', 'विश्वास', 'viśvāsa'],    
-    '16': ['To break', 'ब्रेक', 'brēka'],
-    '17': ['To bring', 'ल्याउनुहोस्', 'lyā’unuhōs'],
-    '18': ['To call', 'कल', 'kala'],
-    '19': ['To change', 'परिवर्तन', 'parivartana'],
-    '20': ['To choose', 'चान्नुहोस्', 'chānnuhōs'],
-    '21': ['To clean', 'सफा', 'saphā'],
-    '22': ['To close', 'बन्द', 'banda'],
-    '23': ['To come back', 'फिर्ता आउनुहोस्', 'phirtā ā’unuhōs'],
-    '24': ['To continue', 'जारी राख्नुहोस्', 'jārī rākhnuhōs'],
-    '25': ['To count', 'गणना', 'gaṇanā'],
-    '26': ['To decide', 'निर्णय', 'nirṇaya'],
-    '27': ['To do', 'गर्नु', 'garnu'],
-    '28': ['To drive', 'ड्राइभ', 'ḍrā’ibha'],
-    '29': ['To enter', 'प्रविष्ट गर्नुहोस्', 'praviṣṭa garnuhōs'],
-    '30': ['To exist', 'अवस्थित छ', 'avasthita cha'],
-    '31': ['To explain', 'व्याख्या गर्नुहोस्', 'vyākhyā garnuhōs'],
-    '32': ['To fall', 'पटन', 'patana'],
-    '33': ['To fall asleep', 'सुत्नु', 'sutnu'],
-    '34': ['To find', 'फेला पार्नुहोस्', 'phēlā pārnuhōs'],
-    '35': ['To finish', 'समाप्त', 'samāpta'],
-    '36': ['To fly', 'उड्नु', 'uḍnu'],
-    '37': ['To follow', 'पछ्याउनु', 'pachyā’una'],
-    '38': ['To forget', 'बिर्सनु', 'birsanu'],
-    '39': ['To get off', 'बाहिर जानुहोस्', 'bāhira jānuhōs'],
-    '40': ['To get out', 'बाहिर जाउ', 'bāhira jā’ū'],
-    '41': ['To give', 'दिनु', 'dinu'],
-    '42': ['To have', 'छ', 'cha'],
-    '43': ['To hear', 'सुन्नुहोस्', 'sunnuhōs'],
-    '44': ['To help', 'मद्दत', 'maddata'],
-    '45': ['To hold', 'होल्ड गर्नुहोस्', 'hōlḍa garnuhōs'],
-    '46': ['To keep', 'राख्न', 'rākhna'],
-    '47': ['To know', 'जान्नुहुन्छ', 'jānnuhuncha'],
-    '48': ['To laugh', 'हाँस्न', 'hām̐sna'],
-    '49': ['To learn', 'सिक्नुहोस्', 'siknuhōs'],
-    '50': ['To leave', 'छोड', 'chōḍa'],
-    '51': ['To listen', 'सुन्नुहोस्', 'sunnuhōs'],
-    '52': ['To live', 'लाइब्ह', 'lā’ibha'],
-    '53': ['To look like', 'जस्तो देखिन्छ', 'jastō dēkhincha'],
-    '54': ['To look', 'हेर', 'hēra'],
-    '55': ['To lose', 'हाराउनु', 'harā’unu'],
-    '56': ['To love', 'माया', 'māyā'],
-    '57': ['To make', 'बनाउनु', 'banā’una'],
-    '58': ['To meet', 'भेट्न', 'bhēṭna'],
-    '59': ['To need', 'आवश्यकता', 'āvaśyakatā'],
-    '60': ['To open', 'खोल्नुहोस्', 'khōlnuhōs'],
-    '61': ['To pay', 'भुक्तान', 'bhuktāna'],
-    '62': ['To play', 'खेल्नु', 'khēlnu'],
-    '63': ['To prepare', 'तयारी', 'tayārī'],
-    '64': ['To prevent', 'रोकथामा', 'rōkathāma'],
-    '65': ['To put', 'राख्नु', 'rākhnu'],
-    '66': ['To read', 'पढ्नुहोस्', 'paḍhnuhōs'],
-    '67': ['To recall', 'सम्झना', 'samjhanā'],
-    '68': ['To receive', 'प्राप्त गर्नुहोस्', 'prāpta garnuhōs'],
-    '69': ['To recognize', 'पहिचान', 'pahicāna'],
-    '70': ['To refuse', 'अस्वीकार', 'asvīkāra'],
-    '71': ['To remember', 'सम्झनु', 'samjhanu'],
-    '72': ['To repeat', 'दोहोर्याउनुहोस्', 'dōhōryā’unuhōs'],
-    '73': ['To rest', 'विश्राम', 'viśrāma'],
-    '74': ['To return', 'फर्किनु', 'pharkinu'],
-    '75': ['To run', 'दौडनु', 'dauḍanu'],
-    '76': ['To say', 'भन्नुहोस्', 'bhannuhōs'],
-    '77': ['To search', 'खोज', 'khōja'],
-    '78': ['To see', 'हेर्नुहोस्', 'hernuhōs'],
-    '79': ['To sell', 'बेच्नुहोस्', 'bēcnuhōs'],
-    '80': ['To send', 'पठाउनुहोस्', 'paṭhā’unuhōs'],
-    '81': ['To shoot', 'गोली मार', 'gōlī māra'],
-    '82': ['To show', 'देखाउनु', 'dēkhā’unu'],
-    '83': ['To sing', 'गाउनुहोस्', 'gā’unuhōs'],
-    '84': ['To sit down', 'बस', 'basa'],
-    '85': ['To sleep', 'सुत्नु', 'sutnu'],
-    '86': ['To start', 'सुरु', 'suru'],
-    '87': ['To stay', 'रहनु', 'rahanu'],
-    '88': ['To stop', 'रोक', 'rōka'],
-    '89': ['To succeed', 'सफल', 'saphala'],
-    '90': ['To switch off', 'बन्द गर्नुहोस्', 'banda garnuhōs'],
-    '91': ['To take', 'लिनुहोस्', 'linuhōs'],
-    '92': ['To talk', 'कुरा', 'kurā'],
-    '93': ['To taste', 'स्वाद', 'svāda'],
-    '94': ['To think', 'सोच्नुहोस्', 'sōcnuhōs'],
-    '95': ['To throw', 'फाल्नु', 'phālnu'],
-    '96': ['To touch', 'स्पर्श', 'sparśa'],
-    '97': ['To try', 'प्रयास गर्नुहोस्', 'prayāsa garnuhōs'],
-    '98': ['To turn', 'घुमाउनुहोस्', 'ghumā’unuhōs'],
-    '99': ['To turn on', 'खोल्नुहोस्', 'khōlnuhōs'],
-    '100': ['To understand', 'बुझ्नुहोस्', 'bujhnuhōs'],
-    '101': ['To use', 'प्रयोग गर्नुहोस्', 'prayōga garnuhōs'],
-    '102': ['To wait', 'पर्खनुहोस्', 'parkhanuhōs'],
-    '103': ['To wake up', 'उठ्नुहोस्', 'uṭhnuhōs'],
-    '104': ['To walk', 'हिड्नु', 'hiḍnu'],
-    '105': ['To want', 'चाहन्छ', 'cāhancha'],
-    '106': ['To wash up', 'धुनुहोस्', 'dhunuhōs'],
-    '107': ['To wear', 'लगाउनु', 'lagāunu'],
-    '108': ['To win', 'जित', 'jīta'],
-    '109': ['To work', 'काम', 'kāma'],
-    '110': ['To write', 'लेख्नुहोस्', 'lēkhnuhōs'],
-    '111': ['To drink', 'पिउनु', 'piunu'],
-    '112': ['To slip', 'चिप्लनु', 'ciplanu'],
-    '113': ['To stand', 'उभिनु', 'ubhinu'],
+    # '5': ['To touch', 'छुनु', 'chunu'],
+    # '6': ['To come', 'आउनु', 'āunu'],
+    # '7': ['To cook', 'पकाउनु', 'pakāunu'],
+    # '8': ['To accept', 'स्वीकार गर्नुहोस्', 'Svīkāra garnuhōs'],
+    # '9': ['To add', 'थप्नुहोस्', 'thapnuhōs'],
+    # '10': ['To allow', 'अनुमति दिनुहोस्', 'anumati dinuhōs'],
+    # '11': ['To answer', 'जवाफ', 'javāpha'],
+    # '12': ['To arrive', 'आइपुग्छ', 'ā’ipugcha'],
+    # '13': ['To ask', 'सोध्नु', 'sōdhnu'],
+    # '14': ['To become', 'बन्नु', 'bannu'],
+    # '15': ['To believe', 'विश्वास', 'viśvāsa'],    
+    # '16': ['To break', 'ब्रेक', 'brēka'],
+    # '17': ['To bring', 'ल्याउनुहोस्', 'lyā’unuhōs'],
+    # '18': ['To call', 'कल', 'kala'],
+    # '19': ['To change', 'परिवर्तन', 'parivartana'],
+    # '20': ['To choose', 'चान्नुहोस्', 'chānnuhōs'],
+    # '21': ['To clean', 'सफा', 'saphā'],
+    # '22': ['To close', 'बन्द', 'banda'],
+    # '23': ['To come back', 'फिर्ता आउनुहोस्', 'phirtā ā’unuhōs'],
+    # '24': ['To continue', 'जारी राख्नुहोस्', 'jārī rākhnuhōs'],
+    # '25': ['To count', 'गणना', 'gaṇanā'],
+    # '26': ['To decide', 'निर्णय', 'nirṇaya'],
+    # '27': ['To do', 'गर्नु', 'garnu'],
+    # '28': ['To drive', 'ड्राइभ', 'ḍrā’ibha'],
+    # '29': ['To enter', 'प्रविष्ट गर्नुहोस्', 'praviṣṭa garnuhōs'],
+    # '30': ['To exist', 'अवस्थित छ', 'avasthita cha'],
+    # '31': ['To explain', 'व्याख्या गर्नुहोस्', 'vyākhyā garnuhōs'],
+    # '32': ['To fall', 'पटन', 'patana'],
+    # '33': ['To fall asleep', 'सुत्नु', 'sutnu'],
+    # '34': ['To find', 'फेला पार्नुहोस्', 'phēlā pārnuhōs'],
+    # '35': ['To finish', 'समाप्त', 'samāpta'],
+    # '36': ['To fly', 'उड्नु', 'uḍnu'],
+    # '37': ['To follow', 'पछ्याउनु', 'pachyā’una'],
+    # '38': ['To forget', 'बिर्सनु', 'birsanu'],
+    # '39': ['To get off', 'बाहिर जानुहोस्', 'bāhira jānuhōs'],
+    # '40': ['To get out', 'बाहिर जाउ', 'bāhira jā’ū'],
+    # '41': ['To give', 'दिनु', 'dinu'],
+    # '42': ['To have', 'छ', 'cha'],
+    # '43': ['To hear', 'सुन्नुहोस्', 'sunnuhōs'],
+    # '44': ['To help', 'मद्दत', 'maddata'],
+    # '45': ['To hold', 'होल्ड गर्नुहोस्', 'hōlḍa garnuhōs'],
+    # '46': ['To keep', 'राख्न', 'rākhna'],
+    # '47': ['To know', 'जान्नुहुन्छ', 'jānnuhuncha'],
+    # '48': ['To laugh', 'हाँस्न', 'hām̐sna'],
+    # '49': ['To learn', 'सिक्नुहोस्', 'siknuhōs'],
+    # '50': ['To leave', 'छोड', 'chōḍa'],
+    # '51': ['To listen', 'सुन्नुहोस्', 'sunnuhōs'],
+    # '52': ['To live', 'लाइब्ह', 'lā’ibha'],
+    # '53': ['To look like', 'जस्तो देखिन्छ', 'jastō dēkhincha'],
+    # '54': ['To look', 'हेर', 'hēra'],
+    # '55': ['To lose', 'हाराउनु', 'harā’unu'],
+    # '56': ['To love', 'माया', 'māyā'],
+    # '57': ['To make', 'बनाउनु', 'banā’una'],
+    # '58': ['To meet', 'भेट्न', 'bhēṭna'],
+    # '59': ['To need', 'आवश्यकता', 'āvaśyakatā'],
+    # '60': ['To open', 'खोल्नुहोस्', 'khōlnuhōs'],
+    # '61': ['To pay', 'भुक्तान', 'bhuktāna'],
+    # '62': ['To play', 'खेल्नु', 'khēlnu'],
+    # '63': ['To prepare', 'तयारी', 'tayārī'],
+    # '64': ['To prevent', 'रोकथामा', 'rōkathāma'],
+    # '65': ['To put', 'राख्नु', 'rākhnu'],
+    # '66': ['To read', 'पढ्नुहोस्', 'paḍhnuhōs'],
+    # '67': ['To recall', 'सम्झना', 'samjhanā'],
+    # '68': ['To receive', 'प्राप्त गर्नुहोस्', 'prāpta garnuhōs'],
+    # '69': ['To recognize', 'पहिचान', 'pahicāna'],
+    # '70': ['To refuse', 'अस्वीकार', 'asvīkāra'],
+    # '71': ['To remember', 'सम्झनु', 'samjhanu'],
+    # '72': ['To repeat', 'दोहोर्याउनुहोस्', 'dōhōryā’unuhōs'],
+    # '73': ['To rest', 'विश्राम', 'viśrāma'],
+    # '74': ['To return', 'फर्किनु', 'pharkinu'],
+    # '75': ['To run', 'दौडनु', 'dauḍanu'],
+    # '76': ['To say', 'भन्नुहोस्', 'bhannuhōs'],
+    # '77': ['To search', 'खोज', 'khōja'],
+    # '78': ['To see', 'हेर्नुहोस्', 'hernuhōs'],
+    # '79': ['To sell', 'बेच्नुहोस्', 'bēcnuhōs'],
+    # '80': ['To send', 'पठाउनुहोस्', 'paṭhā’unuhōs'],
+    # '81': ['To shoot', 'गोली मार', 'gōlī māra'],
+    # '82': ['To show', 'देखाउनु', 'dēkhā’unu'],
+    # '83': ['To sing', 'गाउनुहोस्', 'gā’unuhōs'],
+    # '84': ['To sit down', 'बस', 'basa'],
+    # '85': ['To sleep', 'सुत्नु', 'sutnu'],
+    # '86': ['To start', 'सुरु', 'suru'],
+    # '87': ['To stay', 'रहनु', 'rahanu'],
+    # '88': ['To stop', 'रोक', 'rōka'],
+    # '89': ['To succeed', 'सफल', 'saphala'],
+    # '90': ['To switch off', 'बन्द गर्नुहोस्', 'banda garnuhōs'],
+    # '91': ['To take', 'लिनुहोस्', 'linuhōs'],
+    # '92': ['To talk', 'कुरा', 'kurā'],
+    # '93': ['To taste', 'स्वाद', 'svāda'],
+    # '94': ['To think', 'सोच्नुहोस्', 'sōcnuhōs'],
+    # '95': ['To throw', 'फाल्नु', 'phālnu'],
+    # '96': ['To touch', 'स्पर्श', 'sparśa'],
+    # '97': ['To try', 'प्रयास गर्नुहोस्', 'prayāsa garnuhōs'],
+    # '98': ['To turn', 'घुमाउनुहोस्', 'ghumā’unuhōs'],
+    # '99': ['To turn on', 'खोल्नुहोस्', 'khōlnuhōs'],
+    # '100': ['To understand', 'बुझ्नुहोस्', 'bujhnuhōs'],
+    # '101': ['To use', 'प्रयोग गर्नुहोस्', 'prayōga garnuhōs'],
+    # '102': ['To wait', 'पर्खनुहोस्', 'parkhanuhōs'],
+    # '103': ['To wake up', 'उठ्नुहोस्', 'uṭhnuhōs'],
+    # '104': ['To walk', 'हिड्नु', 'hiḍnu'],
+    # '105': ['To want', 'चाहन्छ', 'cāhancha'],
+    # '106': ['To wash up', 'धुनुहोस्', 'dhunuhōs'],
+    # '107': ['To wear', 'लगाउनु', 'lagāunu'],
+    # '108': ['To win', 'जित', 'jīta'],
+    # '109': ['To work', 'काम', 'kāma'],
+    # '110': ['To write', 'लेख्नुहोस्', 'lēkhnuhōs'],
+    # '111': ['To drink', 'पिउनु', 'piunu'],
+    # '112': ['To slip', 'चिप्लनु', 'ciplanu'],
+    # '113': ['To stand', 'उभिनु', 'ubhinu'],
 }
 
 consonants = {
@@ -294,13 +294,26 @@ numeral_dict = {
 def verbs_question():
     random_key, random_value = random.choice(list(verbs.items()))
     direction = random.choice(['english_to_nepali', 'nepali_to_english'])
+    translations = []
 
     if direction == 'english_to_nepali':
         question = random_value[0]
         correct_answer = random_value[2]
+        all_translations = [v[2] for v in list(verbs.values()) if v[2] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+        # print(translations)
+
+
     else:
         question = random_value[2]
         correct_answer = random_value[0]
+        all_translations = [v[0] for v in list(verbs.values()) if v[0] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+        # print(translations)
     formatted_answer = [s.replace('ā','a')
                             .replace('ī','i')
                             .replace('ō','o')
@@ -313,12 +326,18 @@ def verbs_question():
                             .replace('’','`')
                             .replace('ṇ','n')
                             for s in correct_answer] 
-    user_answer = input('What is translation of ' + question + '? ')
+    user_answer = input('What is translation of ' + question + '?\n')
     
     if user_answer.lower() == ''.join(formatted_answer).lower():
         print('Correct answer!, it was indeed ', correct_answer)
-    else:       
-        print('Wrong answer. The correct answer is:', correct_answer)
+    else:
+        multiple_choice = input('Oops, your answer is incorrect.\nThe answer is one of these\n' + '\n' .join(translations)+ '\n')
+        if multiple_choice.lower() == ''.join(formatted_answer).lower():
+            print('you got it!')
+        else:
+            print('you suck')
+        # print(random_value)
+
 
 
 def consonants_question():
@@ -353,7 +372,7 @@ def game(consonant, vowel, dependent_vowel, verbs):
         print('-', category_info[0])
     while True:
         random_category = random.choice(selected_categories)
-        print('The question is in the category:', random_category[0])
+        print('The question is in the category:\n', random_category[0])
         # _, random_question_function, _ = random_category
         # random_question_function()
         random_question_function = random_category[1]
