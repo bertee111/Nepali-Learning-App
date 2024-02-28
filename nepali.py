@@ -311,8 +311,9 @@ def verbs_question():
                             .replace('ś','s')
                             .replace('ṣ','s')
                             .replace('’','`')
+                            .replace('ṇ','n')
                             for s in correct_answer] 
-    user_answer = input('What is translation of' + question + '? ')
+    user_answer = input('What is translation of ' + question + '? ')
     
     if user_answer.lower() == ''.join(formatted_answer).lower():
         print('Correct answer!, it was indeed ', correct_answer)
@@ -353,7 +354,9 @@ def game(consonant, vowel, dependent_vowel, verbs):
     while True:
         random_category = random.choice(selected_categories)
         print('The question is in the category:', random_category[0])
-        _, random_question_function, _ = random_category
+        # _, random_question_function, _ = random_category
+        # random_question_function()
+        random_question_function = random_category[1]
         random_question_function()
         next = input('press enter to go next')
         if next == '':
