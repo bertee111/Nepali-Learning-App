@@ -84,7 +84,7 @@ verbs = {
     '81': ['To shoot', 'गोली मार', 'gōlī māra'],
     '82': ['To show', 'देखाउनु', 'dēkhā’unu'],
     '83': ['To sing', 'गाउनुहोस्', 'gā’unuhōs'],
-    '84': ['To sit down', 'बस', 'basa'],
+    '84': ['To sit down', 'बस', 'basnu'],
     '85': ['To sleep', 'सुत्नु', 'sutnu'],
     '86': ['To start', 'सुरु', 'suru'],
     '87': ['To stay', 'रहनु', 'rahanu'],
@@ -290,9 +290,10 @@ numeral_dict = {
     99: ['९९', 'उनन्सय', 'unnansaya', 99],
     100: ['१००', 'एक सय', 'ek saya', 100],
 }
+# def special_character_formatting(nepali):
 
-def verbs_translation():
-    random_key, random_value = random.choice(list(verbs.items()))
+def verb_translation():
+    _, random_value = random.choice(list(verbs.items()))
     direction = random.choice(['english_to_nepali', 'nepali_to_english'])
     translations = []
 
@@ -303,7 +304,6 @@ def verbs_translation():
         translations.append(correct_answer)
         translations.extend(random.sample(all_translations, 3))
         random.shuffle(translations) 
-        # print(translations)
 
     else:
         question = random_value[2]
@@ -312,7 +312,6 @@ def verbs_translation():
         translations.append(correct_answer)
         translations.extend(random.sample(all_translations, 3))
         random.shuffle(translations) 
-        # print(translations)
     formatted_answer = [s.replace('ā','a')
                             .replace('ī','i')
                             .replace('ō','o')
@@ -328,36 +327,107 @@ def verbs_translation():
     user_answer = input('What is translation of ' + question + '?\n')
     
     if user_answer.lower() == ''.join(formatted_answer).lower():
-        print('Correct answer!, it was indeed ', correct_answer)
+        print('\nCorrect answer!', correct_answer, '=', question, '=', random_value[1], '\n' )
     else:
-        multiple_choice = input('\nOops, your answer is incorrect.\nThe answer is one of these\n' + '\n' .join(translations)+ '\n')
+        multiple_choice = input(f'\nOops, your answer is incorrect.\nThe translation of {question} is one of these\n' + '\n' .join(translations)+ '\n')
         if multiple_choice.lower() == ''.join(formatted_answer).lower():
-            print('\nCorrect answer!, it was indeed ', correct_answer)
+            print('\nCorrect answer!', correct_answer, '=', question, '=', random_value[1], '\n' )
         else:
-            print('\nWrong answer, the correct one was : ' + correct_answer)
-        # print(random_value)
+            print('\nWrong answer: ', correct_answer , '=', question, '=', random_value[1], '\n')
 
 def verb_politness():
     print('polite')
 
 
-def consonants_question():
-    print('consonant')
+def consonant_question():
+    _, random_value = random.choice(list(consonants.items()))
+    direction = random.choice(['english_to_nepali', 'nepali_to_english'])
+    translations = []
+
+    if direction == 'english_to_nepali':
+        question = random_value[0]
+        correct_answer = random_value[1]
+        all_translations = [v[1] for v in list(consonants.values()) if v[1] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+
+    else:
+        question = random_value[1]
+        correct_answer = random_value[0]
+        all_translations = [v[0] for v in list(consonants.values()) if v[0] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+
+    multiple_choice = input(f'\nThe translation of {question} is one of these\n' + '\n' .join(translations)+ '\n')
+    if multiple_choice.lower() == (correct_answer).lower():
+        print('\nCorrect answer!',correct_answer, '=', question, '\n' )
+    else:
+        print('\nWrong answer: ',correct_answer , '= ' + question, '\n')
+
 
 def vowel_question():
-    print('vowel')
+    _, random_value = random.choice(list(vowels.items()))
+    direction = random.choice(['english_to_nepali', 'nepali_to_english'])
+    translations = []
+
+    if direction == 'english_to_nepali':
+        question = random_value[0]
+        correct_answer = random_value[1]
+        all_translations = [v[1] for v in list(vowels.values()) if v[1] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+
+    else:
+        question = random_value[1]
+        correct_answer = random_value[0]
+        all_translations = [v[0] for v in list(vowels.values()) if v[0] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+
+    multiple_choice = input(f'\nThe translation of {question} is one of these\n' + '\n' .join(translations)+ '\n')
+    if multiple_choice.lower() == (correct_answer).lower():
+        print('\nCorrect answer!',correct_answer, '=', question, '\n' )
+    else:
+        print('\nWrong answer: ',correct_answer , '= ' + question, '\n')
 
 def dependent_vowel_question():
-    print('dependent')
+    _, random_value = random.choice(list(dependent_vowels.items()))
+    direction = random.choice(['english_to_nepali', 'nepali_to_english'])
+    translations = []
 
+    if direction == 'english_to_nepali':
+        question = random_value[0]
+        correct_answer = random_value[1]
+        all_translations = [v[1] for v in list(dependent_vowels.values()) if v[1] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
 
-def game(consonant, vowel, dependent_vowel, verbs):
+    else:
+        question = random_value[1]
+        correct_answer = random_value[0]
+        all_translations = [v[0] for v in list(dependent_vowels.values()) if v[0] != correct_answer]
+        translations.append(correct_answer)
+        translations.extend(random.sample(all_translations, 3))
+        random.shuffle(translations) 
+
+    multiple_choice = input(f'\nThe translation of {question} is one of these\n' + '\n' .join(translations)+ '\n')
+    if multiple_choice.lower() == (correct_answer).lower():
+        print('\nCorrect answer!',correct_answer, '=', question, '\n' )
+    else:
+        print('\nWrong answer: ',correct_answer , '= ' + question, '\n')
+
+def game(consonants, vowels, dependent_vowels, verbs):
     
     categories = {
-        '1': ('Consonants', consonants_question, consonant),
-        '2': ('Vowels',vowel_question, vowel),
-        '3': ('Dependent Vowels',dependent_vowel_question, dependent_vowel),
-        '4': ('Verbs',verbs_translation, verbs),
+        '1': ('Consonants', consonant_question, consonants),
+        '2': ('Vowels',vowel_question, vowels),
+        '3': ('Dependent Vowels',dependent_vowel_question, dependent_vowels),
+        '4': ('Verbs',verb_translation, verbs),
     }
     categories_selection = input('''What would you like to practice today?\n
         1)Consonants?\n
@@ -368,14 +438,10 @@ def game(consonant, vowel, dependent_vowel, verbs):
     selected_categories = [categories[i]for i in categories_selection if i in categories]
     print('Selected categories:')
     for category_info in selected_categories:
-        # category_name, _, _ = category_info
-        # print('-',category_name)
         print('-', category_info[0])
     while True:
         random_category = random.choice(selected_categories)
-        print('The question is in the category:\n', random_category[0])
-        # _, random_question_function, _ = random_category
-        # random_question_function()
+        # print('The question is in the category:\n', random_category[0])
         random_question_function = random_category[1]
         random_question_function()
         next = input('press enter to go next')
