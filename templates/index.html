@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Game</title>
+</head>
+<body>
+    <h1>Welcome to My Game!</h1>
+    <p>Enter your name:</p>
+    <input type="text" id="playerName">
+    <button onclick="startGame()">Start Game</button>
+    <div id="gameOutput"></div>
+
+    <script>
+        function startGame() {
+            const playerName = document.getElementById("playerName").value;
+            const formData = new FormData();
+            formData.append('playerName', playerName);
+            fetch('/play_game', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => document.getElementById('gameOutput').innerText = data);
+        }
+    </script>
+</body>
+</html>

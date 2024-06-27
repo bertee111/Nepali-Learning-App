@@ -452,7 +452,7 @@ def game(consonants, vowels, dependent_vowels, verbs):
 
 
     
-game(consonants, vowels, dependent_vowels, verbs)            
+# game(consonants, vowels, dependent_vowels, verbs)            
 
 
 
